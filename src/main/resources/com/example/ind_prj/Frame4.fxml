@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <center>
+        <AnchorPane fx:id="anchorPane" prefHeight="800" prefWidth="1200">
+            <GridPane alignment="CENTER" hgap="10" vgap="10" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+
+                <!-- Row 1 -->
+                <ImageView fx:id="maxVerstappen" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Red Bull Racing" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+
+                <ImageView fx:id="yukiTsunoda" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Ferrari" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+                <ImageView fx:id="oscarPiastri" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="McLaren" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+
+                <ImageView fx:id="landoNorris" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="204.0" text="Mersedes" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+
+                <!-- Row 2 -->
+                <ImageView fx:id="charlesLeclerc" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Aston Martin" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+
+                <ImageView fx:id="lewisHamilton" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Racing Bulls" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+                <ImageView fx:id="alexAlbon" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Williams" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+
+                <ImageView fx:id="carlosSainz" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="204.0" text="Hass" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+
+                <!-- Row 3 -->
+                <ImageView fx:id="isaacHadjar" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Kick Sauber" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+
+                <ImageView fx:id="lanceStroll" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label alignment="CENTER" prefHeight="17.0" prefWidth="203.0" text="Alpine" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <columnConstraints>
+                    <ColumnConstraints />
+                    <ColumnConstraints />
+                    <ColumnConstraints />
+                    <ColumnConstraints />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                    <RowConstraints />
+                </rowConstraints>
+                <padding>
+                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                </padding>
+            </GridPane>
+            <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </padding>
+            <BorderPane.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </BorderPane.margin>
+        </AnchorPane>
+    </center>
+    <top>
+        <Label text="F1 Teams 2025" BorderPane.alignment="CENTER_LEFT">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+    </top>
+    <left>
+        <VBox prefHeight="200.0" prefWidth="100.0" />
+    </left>
+    <right>
+        <VBox prefHeight="200.0" prefWidth="100.0" />
+    </right>
+    <bottom>
+        <HBox prefHeight="100.0" prefWidth="200.0" />
+    </bottom>
+</BorderPane>
