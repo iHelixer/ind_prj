@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <HBox alignment="CENTER" prefHeight="62.0" prefWidth="1174.0" BorderPane.alignment="CENTER">
          <children>
-            <ImageView fx:id="logoImageView" fitHeight="62.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="logoImageView" fitHeight="62.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/img/image-Photoroom%201.png" />
+               </image></ImageView>
             <Region prefHeight="62.0" prefWidth="133.0" />
             <Button fx:id="btnTickets" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="97.0" text="Tickets" HBox.hgrow="ALWAYS">
                <HBox.margin>
@@ -31,18 +41,21 @@
       </HBox>
    </top>
    <center>
-      <AnchorPane prefHeight="635.0" prefWidth="1208.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="791.0" prefWidth="1270.0" BorderPane.alignment="CENTER">
          <children>
             <Label fx:id="heroTitle" alignment="TOP_LEFT" contentDisplay="TOP" layoutX="38.0" prefHeight="40.0" prefWidth="431.0" style="-fx-font-size: 28; -fx-font-weight: bold;" text="Formula 1 / Live Stats &amp; News" AnchorPane.bottomAnchor="718.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="821.0" AnchorPane.topAnchor="10.0" />
-            <StackPane prefHeight="274.0" prefWidth="1208.0">
+            <StackPane layoutX="52.0" prefHeight="279.0" prefWidth="1200.0">
                <children>
-                  <ImageView fitHeight="413.0" fitWidth="1196.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="262.0" fitWidth="671.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../java/img/Rectangle%2014.png" />
+                     </image></ImageView>
                </children>
                <padding>
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
             </StackPane>
-            <VBox layoutX="4.0" layoutY="284.0" prefHeight="303.0" prefWidth="1200.0" spacing="20.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="358.0">
+            <VBox layoutX="92.0" layoutY="319.0" prefHeight="522.0" prefWidth="1280.0" spacing="20.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="263.0">
                <padding>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
                </padding>
@@ -52,32 +65,47 @@
                         <Font size="20.0" />
                      </font>
                   </Label>
-                  <TilePane fx:id="newsTilePane" hgap="16.0" prefColumns="3" prefHeight="200.0" prefWidth="200.0" vgap="16.0" VBox.vgrow="ALWAYS">
+                  <TilePane fx:id="newsTilePane" hgap="16.0" prefColumns="3" prefHeight="387.0" prefWidth="1220.0" vgap="16.0" VBox.vgrow="ALWAYS">
                      <children>
-                        <HBox alignment="CENTER" prefHeight="260.0" prefWidth="1200.0" spacing="150.0" TilePane.alignment="CENTER">
+                        <HBox alignment="CENTER" prefHeight="197.0" prefWidth="1200.0" spacing="150.0" TilePane.alignment="CENTER">
                            <children>
-                              <VBox fx:id="topDriverBox" prefHeight="152.0" prefWidth="200.0">
+                              <VBox fx:id="topDriverBox" prefHeight="237.0" prefWidth="140.0">
                                  <children>
                                     <Label alignment="CENTER" prefHeight="17.0" prefWidth="207.0" text="Top Driver" wrapText="true" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+                                    <ImageView fitHeight="208.0" fitWidth="161.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/img/Component%208.png" />
+                                       </image>
+                                    </ImageView>
                                     <Label alignment="CENTER" prefHeight="17.0" prefWidth="203.0" text="Max Verstappen" wrapText="true" />
                                  </children>
                               </VBox>
-                              <VBox fx:id="topTeamBox" prefHeight="180.0" prefWidth="180.0">
+                              <VBox fx:id="topTeamBox" alignment="CENTER" prefHeight="278.0" prefWidth="241.0">
                                  <children>
-                                    <Label alignment="CENTER" prefHeight="17.0" prefWidth="203.0" text="Top Team" wrapText="true" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
-                                    <Label alignment="CENTER" prefHeight="17.0" prefWidth="203.0" text="Red Bull Racing" wrapText="true" />
+                                    <Label alignment="CENTER" prefHeight="34.0" prefWidth="203.0" text="Top Team" wrapText="true" />
+                                    <ImageView fitHeight="115.0" fitWidth="241.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/img/Component%2033.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Label alignment="CENTER" prefHeight="44.0" prefWidth="203.0" text="Red Bull Racing" wrapText="true" />
                                  </children>
                               </VBox>
-                              <VBox fx:id="calendarBox" prefHeight="180.0" prefWidth="180.0">
+                              <VBox fx:id="calendarBox" alignment="CENTER" prefHeight="211.0" prefWidth="200.0">
                                  <children>
                                     <Label alignment="CENTER" prefHeight="17.0" prefWidth="205.0" text="Grand Prix Calander" wrapText="true" />
-                                    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+                                    <ImageView fitHeight="111.0" fitWidth="218.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../../java/img/Frame%206.png" />
+                                       </image>
+                                    </ImageView>
                                     <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Singapore / 03 - 05 Oct" wrapText="true" />
                                  </children>
                               </VBox>
                            </children>
+                           <TilePane.margin>
+                              <Insets top="150.0" />
+                           </TilePane.margin>
                         </HBox>
                      </children>
                      <padding>
@@ -93,15 +121,27 @@
       </AnchorPane>
    </center>
    <bottom>
-      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="50.0" BorderPane.alignment="CENTER">
+      <HBox alignment="TOP_CENTER" prefHeight="53.0" prefWidth="1200.0" spacing="50.0" BorderPane.alignment="CENTER">
          <padding>
             <Insets top="12.0" />
          </padding>
          <children>
-            <ImageView fitHeight="78.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="78.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="78.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView fitHeight="78.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/img/Youtube.png" />
+               </image></ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/img/Instagram.png" />
+               </image></ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/img/Twitter.png" />
+               </image></ImageView>
+            <ImageView fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+               <image>
+                  <Image url="@../../../../java/img/Tv.png" />
+               </image></ImageView>
          </children>
       </HBox>
    </bottom>
