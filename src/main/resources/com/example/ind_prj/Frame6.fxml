@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="600.0" spacing="10.0" AnchorPane.bottomAnchor="196.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -25,14 +25,14 @@
             <Label text="Select your Tickets" />
             <HBox prefHeight="59.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
                <children>
-                  <Label text="T3 Grandstand(Fri,Sat &amp; Sun)">
+                  <Label prefHeight="17.0" prefWidth="205.0" text="T3 Grandstand(Fri,Sat &amp; Sun)">
                      <HBox.margin>
                         <Insets left="10.0" top="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label text="1358,88 €">
+                  <Label prefHeight="17.0" prefWidth="92.0" text="1358,88 €">
                      <HBox.margin>
-                        <Insets left="100.0" top="20.0" />
+                        <Insets left="90.0" top="20.0" />
                      </HBox.margin>
                   </Label>
                   <Label alignment="CENTER" text="-">
@@ -45,12 +45,12 @@
                         <Insets left="22.0" top="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Label alignment="CENTER" text="+">
+                  <Label alignment="CENTER" prefHeight="17.0" prefWidth="49.0" text="+">
                      <HBox.margin>
                         <Insets left="23.0" top="20.0" />
                      </HBox.margin>
                   </Label>
-                  <Button mnemonicParsing="false" text="Add to Cart">
+                  <Button fx:id="signInButton" alignment="CENTER" mnemonicParsing="false" prefHeight="38.0" prefWidth="106.0" text="Add">
                      <HBox.margin>
                         <Insets left="110.0" top="15.0" />
                      </HBox.margin>

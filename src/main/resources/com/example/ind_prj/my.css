@@ -1,0 +1,101 @@
+/* ======== ЗАГАЛЬНИЙ ФОН ТА ТЕКСТ ======== */
+.root {
+    -fx-background-color: #f6f3ef; /* Світло-бежевий фон, як у формі Sign in */
+    -fx-font-family: "Helvetica Neue", Arial, sans-serif;
+    -fx-text-fill: #111;
+}
+
+/* ======== ЗАГОЛОВОК SIGN IN ======== */
+#signTitle {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111;
+}
+
+/* ======== ТЕКСТОВІ ПІДПИСИ (Email address, Password) ======== */
+#emailLabel, #passwordLabel {
+    -fx-text-fill: #111;
+    -fx-font-size: 14px;
+}
+
+/* ======== ПОЛЯ ВВОДУ ======== */
+#emailField, #passwordField {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #111;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-padding: 6;
+}
+
+/* ======== КНОПКА SIGN IN ======== */
+#signInButton {
+    -fx-background-color: #e60000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-padding: 8 20 8 20;
+    -fx-cursor: hand;
+}
+
+#signInButton:hover {
+    -fx-background-color: #b30000;
+}
+
+/* ======== ГОЛОВНЕ МЕНЮ (Frame 1 чорна панель) ======== */
+#navbar {
+    -fx-background-color: #000;
+    -fx-padding: 10;
+}
+
+#ticketsButton, #driversButton, #teamsButton, #navSignInButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+}
+
+#ticketsButton:hover, #driversButton:hover, #teamsButton:hover, #navSignInButton:hover {
+    -fx-text-fill: #e60000;
+}
+
+/* ======== ЗАГОЛОВОК F1 TEAMS 2025 ======== */
+#teamsTitle {
+    -fx-text-fill: #e60000;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+/* ======== СЕКЦІЯ ГОЛОВНОЇ СТОРІНКИ ======== */
+#mainFrame {
+    -fx-background-color: #ffffff;
+}
+
+/* ======== КАРТКИ КОМАНД (Frame 4) ======== */
+#teamCard {
+    -fx-background-color: #111;
+    -fx-background-radius: 12;
+    -fx-padding: 10;
+    -fx-cursor: hand;
+}
+
+#teamCard:hover {
+    -fx-background-color: #222;
+}
+
+/* ======== КНОПКИ СОЦМЕРЕЖ (Frame 1 нижній ряд) ======== */
+#ytButton, #instaButton, #twitterButton, #tvButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-cursor: hand;
+    -fx-opacity: 0.8;
+}
+
+#ytButton:hover, #instaButton:hover, #twitterButton:hover, #tvButton:hover {
+    -fx-opacity: 1;
+}

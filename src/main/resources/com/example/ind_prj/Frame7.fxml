@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="278.0" prefWidth="1200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="269.0" fitWidth="167.0" layoutX="677.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/img/max.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="235.0" layoutY="116.0" prefHeight="59.0" prefWidth="172.0" text="Max Verstappen" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="235.0" layoutY="157.0" prefHeight="17.0" prefWidth="183.0" text="Netherlands | Red Bull Racing | 1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="282.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="312.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="282.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="66.0" layoutX="312.0" layoutY="66.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <Button fx:id="btnBack" mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Back" />
+         </children>
+      </AnchorPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="34.0" stroke="BLACK" strokeType="INSIDE" width="984.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="34.0" layoutY="45.0" stroke="BLACK" strokeType="INSIDE" width="984.0" />
+            <Label alignment="TOP_LEFT" layoutX="8.0" layoutY="99.0" prefHeight="20.0" prefWidth="52.0" text="Season">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="7.0" layoutY="127.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="Season position" />
+            <Label layoutX="298.0" layoutY="127.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="Grand Prix Races" />
+            <Label layoutX="520.0" layoutY="127.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="Grand Prix Poles" />
+            <Label layoutX="764.0" layoutY="127.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="DHL Fastest Laps" />
+            <Label alignment="CENTER" layoutX="15.0" layoutY="152.0" prefHeight="17.0" prefWidth="38.0" text="3rd" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="321.0" layoutY="152.0" prefHeight="17.0" prefWidth="38.0" text="20" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="536.0" layoutY="152.0" prefHeight="17.0" prefWidth="38.0" text="6" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="789.0" layoutY="152.0" prefHeight="17.0" prefWidth="38.0" text="2" textAlignment="CENTER" />
+            <Label layoutX="7.0" layoutY="191.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="Season points" />
+            <Label alignment="CENTER" layoutX="15.0" layoutY="218.0" prefHeight="17.0" prefWidth="38.0" text="321" textAlignment="CENTER" />
+            <Label layoutX="298.0" layoutY="191.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="Grand Prix Wins" />
+            <Label alignment="CENTER" layoutX="321.0" layoutY="218.0" prefHeight="17.0" prefWidth="38.0" text="6" textAlignment="CENTER" />
+            <Label layoutX="520.0" layoutY="191.0" opacity="0.66" prefHeight="17.0" prefWidth="107.0" text="Grand Prix Podiums" />
+            <Label alignment="CENTER" layoutX="536.0" layoutY="218.0" prefHeight="17.0" prefWidth="38.0" text="12" textAlignment="CENTER" />
+            <Label alignment="CENTER" layoutX="191.0" layoutY="253.0" prefHeight="17.0" prefWidth="123.0" text="Statistics">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="327.0" layoutX="598.0" layoutY="281.0" stroke="BLACK" strokeType="INSIDE" width="5.0" AnchorPane.bottomAnchor="1.0" AnchorPane.topAnchor="281.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="5.0" layoutY="278.0" stroke="BLACK" strokeType="INSIDE" width="1200.0" AnchorPane.leftAnchor="0.0" />
+            <Label alignment="TOP_LEFT" layoutX="603.0" layoutY="283.0" prefHeight="325.0" prefWidth="596.0" text="Arriving as Formula 1’s youngest ever competitor at just 17 years old, Verstappen pushed his car, his rivals and the sport’s record books to the limit. The baby-faced Dutchman with the heart of a lion took the Toro Rosso – and then the Red Bull – by the horns with his instinctive racing style.F1’s youngest points scorer soon became its youngest race winner – at the age of 18 years and 228 days – with an opportunistic but controlled drive on debut for Red Bull in Barcelona 2016. A true wheel-to-wheel racer, another stunning drive in Brazil from the back of the pack to the podium on a treacherous wet track kept the plaudits coming.Having become the Netherlands' first world champion aged just 24, the expectations for the new generation’s leading light are sky high – but with Verstappen there’s a feeling that the sky’s the limit." wrapText="true" AnchorPane.rightAnchor="1.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="283.0" prefHeight="17.0" prefWidth="90.0" text="Carrer Stats">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="311.0" prefHeight="17.0" prefWidth="112.0" text=" Grand Prix entered" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="311.0" prefHeight="17.0" prefWidth="112.0" text="229" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="327.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Label layoutX="14.0" layoutY="340.0" prefHeight="17.0" prefWidth="112.0" text="Carrer Points" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="340.0" prefHeight="17.0" prefWidth="112.0" text="3344.5" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="356.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Label layoutX="14.0" layoutY="369.0" prefHeight="17.0" prefWidth="112.0" text="Highest Race Finish" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="369.0" prefHeight="17.0" prefWidth="112.0" text="1x(68)" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="385.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Label layoutX="14.0" layoutY="403.0" prefHeight="17.0" prefWidth="112.0" text="Podiums" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="403.0" prefHeight="17.0" prefWidth="112.0" text="123" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="419.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Label layoutX="14.0" layoutY="436.0" prefHeight="17.0" prefWidth="127.0" text="Highest Grid Positions" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="436.0" prefHeight="17.0" prefWidth="112.0" text="1x(47)" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="452.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Label layoutX="14.0" layoutY="470.0" prefHeight="17.0" prefWidth="112.0" text="Pole Positions" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="470.0" prefHeight="17.0" prefWidth="112.0" text="47" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="486.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Label layoutX="14.0" layoutY="506.0" prefHeight="17.0" prefWidth="112.0" text="World Championsips" />
+            <Label alignment="CENTER" layoutX="464.0" layoutY="506.0" prefHeight="17.0" prefWidth="112.0" text="4" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="3.0" layoutX="-5.0" layoutY="522.0" stroke="BLACK" strokeType="INSIDE" width="606.0" />
+            <Button layoutX="8.0" layoutY="557.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Result archive" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
