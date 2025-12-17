@@ -6,8 +6,64 @@
   <component name="ChangeListManager">
     <list default="true" id="01ab046a-a48f-4db1-836b-39f033df5967" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ind_prj/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ind_prj/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ind_prj/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ind_prj/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 13.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 15.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 15.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 17.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 17.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 18.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 19.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 20.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 21.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 22.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 23.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 24.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 26.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 29.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 30.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 32.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 33.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 34.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 36.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 36.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 37.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 37.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Component 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Component 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Frame 6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Frame 6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Instagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Instagram.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Rectangle 14.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Rectangle 14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Rectangle 9.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Rectangle 9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Rectangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Rectangle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Tv.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Tv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Twitter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/Youtube.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/Youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/image 25.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/image 25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/image 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/image 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/image 4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/image 4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/image-Photoroom 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/image-Photoroom 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/max.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/max.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/mclaren.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/mclaren.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/img/russel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/img/russel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame1.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame5.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame5.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame6.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame6.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame7.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame7.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame8.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/Frame8.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/ind_prj/my.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +74,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,6 +111,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.HelloApplication.executor": "Run",
+    "Application.Launcher.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -61,7 +119,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/ideaProjects/ind_prj/src/main/java/img"
+    "last_opened_file_path": "D:/ideaProjects/ind_prj/src/main/java/img",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,8 +130,46 @@
       <recent name="D:\ideaProjects\ind_prj\src\main\java\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ideaProjects\ind_prj\src\main\java\img" />
+      <recent name="D:\ideaProjects\ind_prj" />
+      <recent name="D:\ideaProjects\ind_prj\src\main\java" />
+      <recent name="D:\ideaProjects\ind_prj\src\main\resources" />
+      <recent name="D:\ideaProjects\ind_prj\src\main\resources\com\example\ind_prj" />
+      <recent name="D:\ideaProjects\ind_prj\src\main\resources\audio" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.HelloApplication">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ind_prj.HelloApplication" />
+      <module name="ind_prj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ind_prj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Launcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.ind_prj.Launcher" />
+      <module name="ind_prj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.ind_prj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.Launcher" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

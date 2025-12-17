@@ -13,132 +13,132 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ind_prj.DriversController">
    <center>
       <AnchorPane fx:id="anchorPane" prefHeight="800" prefWidth="1200">
           <GridPane alignment="CENTER" hgap="10" vgap="10" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="10">
       
               <!-- Row 1 -->
-              <ImageView fx:id="maxVerstappen" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
+              <ImageView fx:id="maxVerstappen" fitHeight="150" fitWidth="100" onMouseClicked="#openMaxProfile" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%208.png" />
+                  <Image url="@img/Component%208.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Max Verstappen" GridPane.columnIndex="0" GridPane.rowIndex="1" />
       
               <ImageView fx:id="yukiTsunoda" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2027.png" />
+                  <Image url="@img/Component%2027.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Yuki Tsunoda" GridPane.columnIndex="1" GridPane.rowIndex="1" />
       
               <ImageView fx:id="oscarPiastri" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2026.png" />
+                  <Image url="@img/Component%2026.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Oscar Piastri" GridPane.columnIndex="2" GridPane.rowIndex="1" />
       
               <ImageView fx:id="landoNorris" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2025.png" />
+                  <Image url="@img/Component%2025.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Lando Norris" GridPane.columnIndex="3" GridPane.rowIndex="1" />
       
               <ImageView fx:id="georgeRussel" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2024.png" />
+                  <Image url="@img/Component%2024.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="99.0" text="George Russel" GridPane.columnIndex="4" GridPane.rowIndex="1" />
       
               <!-- Row 2 -->
               <ImageView fx:id="kimiAntonelli" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2023.png" />
+                  <Image url="@img/Component%2023.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Kimi Antonelli" GridPane.columnIndex="0" GridPane.rowIndex="3" />
       
               <ImageView fx:id="charlesLeclerc" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2017.png" />
+                  <Image url="@img/Component%2017.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Charles Leclecrc" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       
               <ImageView fx:id="lewisHamilton" fitHeight="153.0" fitWidth="99.0" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2018.png" />
+                  <Image url="@img/Component%2018.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Lewis Hamilton" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       
               <ImageView fx:id="alexAlbon" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2019.png" />
+                  <Image url="@img/Component%2019.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Alex Albon" GridPane.columnIndex="3" GridPane.rowIndex="3" />
       
               <ImageView fx:id="carlosSainz" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2020.png" />
+                  <Image url="@img/Component%2020.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Carlos Sainz" GridPane.columnIndex="4" GridPane.rowIndex="3" />
       
               <!-- Row 3 -->
               <ImageView fx:id="liamLawson" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2021.png" />
+                  <Image url="@img/Component%2021.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="99.0" text="Liam Lawson" GridPane.columnIndex="0" GridPane.rowIndex="5" />
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Isack Hadjar" GridPane.columnIndex="1" GridPane.rowIndex="5" />
       
               <ImageView fx:id="fernandoAlonso" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2015.png" />
+                  <Image url="@img/Component%2015.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Fernando Alonso" GridPane.columnIndex="2" GridPane.rowIndex="5" />
       
               <ImageView fx:id="lanceStroll" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2016.png" />
+                  <Image url="@img/Component%2016.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Lance Stroll" GridPane.columnIndex="3" GridPane.rowIndex="5" />
       
               <ImageView fx:id="nicoHulkenberg" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2014.png" />
+                  <Image url="@img/Component%2014.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Nico Hülkenberg" GridPane.columnIndex="4" GridPane.rowIndex="5" />
       
               <!-- Row 4 -->
               <ImageView fx:id="gabrielBortoleto" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="6">
                <image>
-                  <Image url="@../../../../java/img/Component%2013.png" />
+                  <Image url="@img/Component%2013.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Gabriel Bortoleto" GridPane.columnIndex="0" GridPane.rowIndex="7" />
       
               <ImageView fx:id="estebanOcon" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
                <image>
-                  <Image url="@../../../../java/img/Component%2012.png" />
+                  <Image url="@img/Component%2012.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Esteban Ocon" GridPane.columnIndex="1" GridPane.rowIndex="7" />
       
               <ImageView fx:id="oliverBearman" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="6">
                <image>
-                  <Image url="@../../../../java/img/Component%2011.png" />
+                  <Image url="@img/Component%2011.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="100.0" text="Oliver Bearman" GridPane.columnIndex="2" GridPane.rowIndex="7" />
       
               <ImageView fx:id="francoColapinto" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="6">
                <image>
-                  <Image url="@../../../../java/img/Component%2010.png" />
+                  <Image url="@img/Component%2010.png" />
                </image></ImageView>
               <Label alignment="CENTER" prefHeight="17.0" prefWidth="99.0" text="Franco Colapinto" GridPane.columnIndex="3" GridPane.rowIndex="7" />
             <ImageView fx:id="pierreGasly" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="6">
                <image>
-                  <Image url="@../../../../java/img/Component%209.png" />
+                  <Image url="@img/Component%209.png" />
                </image>
             </ImageView>
             <Label alignment="CENTER" prefHeight="17.0" prefWidth="99.0" text="Pierre Gasly" GridPane.columnIndex="4" GridPane.rowIndex="7" />
             <ImageView fx:id="isaacHadjar" fitHeight="150" fitWidth="100" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2022.png" />
+                  <Image url="@img/Component%2022.png" />
                </image>
             </ImageView>
             <columnConstraints>
@@ -171,7 +171,7 @@
       </AnchorPane>
    </center>
    <top>
-      <Label fx:id="teamsTitle" stylesheets="@my.css" text="F1 Drivers 2025" BorderPane.alignment="CENTER_LEFT">
+      <Label fx:id="teamsTitle" onMouseClicked="#backToMain" stylesheets="@my.css" text="F1 Drivers 2025" BorderPane.alignment="CENTER_LEFT">
          <font>
             <Font size="24.0" />
          </font>

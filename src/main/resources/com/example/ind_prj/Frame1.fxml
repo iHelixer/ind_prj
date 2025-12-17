@@ -11,26 +11,26 @@
 <?import javafx.scene.layout.Region?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ind_prj.MainPageController">
    <top>
       <HBox fx:id="navbar" alignment="CENTER" prefHeight="62.0" prefWidth="1174.0" stylesheets="@my.css" BorderPane.alignment="CENTER">
          <children>
             <ImageView fx:id="logoImageView" fitHeight="62.0" fitWidth="76.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/image-Photoroom%201.png" />
+                  <Image url="@img/image-Photoroom%201.png" />
                </image></ImageView>
             <Region prefHeight="62.0" prefWidth="133.0" />
-            <Button fx:id="btnTickets" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="97.0" text="Tickets" HBox.hgrow="ALWAYS">
+            <Button fx:id="btnTickets" alignment="CENTER" mnemonicParsing="false" onAction="#handleBtnTickets" prefHeight="40.0" prefWidth="97.0" text="Tickets" HBox.hgrow="ALWAYS">
                <HBox.margin>
                   <Insets />
                </HBox.margin>
             </Button>
             <Region prefHeight="62.0" prefWidth="167.0" />
-            <Button fx:id="btnDrivers" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="97.0" text="Drivers" />
+            <Button fx:id="btnDrivers" alignment="CENTER" mnemonicParsing="false" onAction="#handleBtnDrivers" prefHeight="40.0" prefWidth="97.0" text="Drivers" />
             <Region prefHeight="62.0" prefWidth="167.0" />
-            <Button fx:id="btnTeams" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="97.0" text="Teams" />
+            <Button fx:id="btnTeams" alignment="CENTER" mnemonicParsing="false" onAction="#handleBtnTeams" prefHeight="40.0" prefWidth="97.0" text="Teams" />
             <Region prefHeight="62.0" prefWidth="167.0" />
-            <Button fx:id="btnSignIn" alignment="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="97.0" text="Sign in" textAlignment="CENTER" />
+            <Button fx:id="btnSignIn" alignment="CENTER" mnemonicParsing="false" onAction="#handleBtnSignIn" prefHeight="40.0" prefWidth="97.0" text="Sign in" textAlignment="CENTER" />
          </children>
          <BorderPane.margin>
             <Insets />
@@ -45,7 +45,7 @@
          <children>
             <ImageView fitHeight="322.0" fitWidth="914.0" layoutX="124.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Rectangle%2014.png" />
+                  <Image url="@img/Rectangle%2014.png" />
                </image>
             </ImageView>
             <Label layoutX="124.0" layoutY="31.0" prefHeight="51.0" prefWidth="384.0" text="Formula 1Live Stats &amp; News" textFill="WHITE">
@@ -60,25 +60,25 @@
             </Label>
             <ImageView fitHeight="136.0" fitWidth="193.0" layoutX="31.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/image%203.png" />
+                  <Image url="@img/image%203.png" />
                </image>
             </ImageView>
             <Label contentDisplay="TOP" layoutX="31.0" layoutY="522.0" prefHeight="53.0" prefWidth="174.0" text="Grosjean to drive F1 car for first time since Bahrain crash" textAlignment="CENTER" wrapText="true" />
             <ImageView fitHeight="137.0" fitWidth="203.0" layoutX="423.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/russel.png" />
+                  <Image url="@img/russel.png" />
                </image>
             </ImageView>
             <Label layoutX="423.0" layoutY="524.0" prefHeight="46.0" prefWidth="176.0" text="The unmissable off-track moments of Baku 2025" textAlignment="CENTER" wrapText="true" />
             <ImageView fitHeight="139.0" fitWidth="200.0" layoutX="845.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Rectangle%209.png" />
+                  <Image url="@img/Rectangle%209.png" />
                </image>
             </ImageView>
             <Label layoutX="845.0" layoutY="524.0" lineSpacing="1.0" prefHeight="45.0" prefWidth="202.0" text="F3 announces €1 million prize fund for top-five drivers" textAlignment="CENTER" wrapText="true" />
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="635.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgTopDriver" fitHeight="150.0" fitWidth="200.0" layoutX="68.0" layoutY="635.0" onMouseClicked="#handleTopDriverClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Component%208.png" />
+                  <Image url="@img/Component%208.png" />
                </image>
             </ImageView>
             <Label alignment="CENTER" layoutX="73.0" layoutY="618.0" prefHeight="17.0" prefWidth="91.0" text="Top Driver" textAlignment="CENTER">
@@ -86,9 +86,9 @@
                   <Font size="15.0" />
                </font>
             </Label>
-            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="423.0" layoutY="667.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgTopTeam" fitHeight="150.0" fitWidth="200.0" layoutX="423.0" layoutY="667.0" onMouseClicked="#handleTopTeamClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Component%2033.png" />
+                  <Image url="@img/Component%2033.png" />
                </image>
             </ImageView>
             <Label alignment="CENTER" layoutX="425.0" layoutY="645.0" prefHeight="22.0" prefWidth="192.0" text="Top Team">
@@ -96,9 +96,9 @@
                   <Font size="17.0" />
                </font>
             </Label>
-            <ImageView fitHeight="117.0" fitWidth="200.0" layoutX="846.0" layoutY="654.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgCalendar" fitHeight="117.0" fitWidth="200.0" layoutX="846.0" layoutY="654.0" onMouseClicked="#handleCalendarClick" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Frame%206.png" />
+                  <Image url="@img/Frame%206.png" />
                </image>
             </ImageView>
             <Label alignment="CENTER" layoutX="848.0" layoutY="637.0" prefHeight="17.0" prefWidth="199.0" text="Grand Prix Calendar">
@@ -115,21 +115,21 @@
             <Insets top="12.0" />
          </padding>
          <children>
-            <ImageView fx:id="ytButton" fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ytButton" fitHeight="40.0" fitWidth="50.0" onMouseClicked="#openYoutube" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Youtube.png" />
+                  <Image url="@img/Youtube.png" />
                </image></ImageView>
-            <ImageView fx:id="instaButton" fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="instaButton" fitHeight="40.0" fitWidth="50.0" onMouseClicked="#openInstagram" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Instagram.png" />
+                  <Image url="@img/Instagram.png" />
                </image></ImageView>
-            <ImageView fx:id="twitterButton" fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="twitterButton" fitHeight="40.0" fitWidth="50.0" onMouseClicked="#openTwitter" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../java/img/Twitter.png" />
+                  <Image url="@img/Twitter.png" />
                </image></ImageView>
-            <ImageView fx:id="tvButton" fitHeight="40.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+            <ImageView fx:id="tvButton" fitHeight="40.0" fitWidth="50.0" onMouseClicked="#openTv" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
                <image>
-                  <Image url="@../../../../java/img/Tv.png" />
+                  <Image url="@img/Tv.png" />
                </image></ImageView>
          </children>
       </HBox>

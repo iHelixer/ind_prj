@@ -13,7 +13,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane stylesheets="@my.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ind_prj.TeamsController">
     <center>
         <AnchorPane fx:id="anchorPane" prefHeight="800" prefWidth="1200">
             <GridPane alignment="CENTER" hgap="10" vgap="10" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
@@ -21,63 +21,63 @@
                 <!-- Row 1 -->
                 <ImageView fx:id="redBull" fitHeight="155.0" fitWidth="203.0" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2033.png" />
+                  <Image url="@img/Component%2033.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Red Bull Racing" GridPane.columnIndex="0" GridPane.rowIndex="1" />
 
                 <ImageView fx:id="ferrari" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2030.png" />
+                  <Image url="@img/Component%2030.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Ferrari" GridPane.columnIndex="1" GridPane.rowIndex="1" />
 
-                <ImageView fx:id="mcLaren" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <ImageView fx:id="mcLaren" fitHeight="150" fitWidth="201.0" onMouseClicked="#openMcLarenProfile" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2028.png" />
+                  <Image url="@img/Component%2028.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="McLaren" GridPane.columnIndex="2" GridPane.rowIndex="1" />
 
                 <ImageView fx:id="mersedes" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="0">
                <image>
-                  <Image url="@../../../../java/img/Component%2029.png" />
+                  <Image url="@img/Component%2029.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="204.0" text="Mersedes" GridPane.columnIndex="3" GridPane.rowIndex="1" />
 
                 <!-- Row 2 -->
                 <ImageView fx:id="astonMartin" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2034.png" />
+                  <Image url="@img/Component%2034.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Aston Martin" GridPane.columnIndex="0" GridPane.rowIndex="3" />
 
                 <ImageView fx:id="racingBulls" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2031.png" />
+                  <Image url="@img/Component%2031.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Racing Bulls" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 
                 <ImageView fx:id="williams" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2032.png" />
+                  <Image url="@img/Component%2032.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Williams" GridPane.columnIndex="2" GridPane.rowIndex="3" />
 
                 <ImageView fx:id="hass" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
                <image>
-                  <Image url="@../../../../java/img/Component%2036.png" />
+                  <Image url="@img/Component%2036.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="204.0" text="Hass" GridPane.columnIndex="3" GridPane.rowIndex="3" />
 
                 <!-- Row 3 -->
                 <ImageView fx:id="kickSauber" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2035.png" />
+                  <Image url="@img/Component%2035.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="202.0" text="Kick Sauber" GridPane.columnIndex="1" GridPane.rowIndex="5" />
 
                 <ImageView fx:id="alpine" fitHeight="150" fitWidth="201.0" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="4">
                <image>
-                  <Image url="@../../../../java/img/Component%2037.png" />
+                  <Image url="@img/Component%2037.png" />
                </image></ImageView>
                 <Label alignment="CENTER" prefHeight="17.0" prefWidth="203.0" text="Alpine" GridPane.columnIndex="2" GridPane.rowIndex="5" />
                 <columnConstraints>
@@ -108,7 +108,7 @@
         </AnchorPane>
     </center>
     <top>
-        <Label fx:id="teamsTitle" stylesheets="@my.css" text="F1 Teams 2025" BorderPane.alignment="CENTER_LEFT">
+        <Label fx:id="teamsTitle" onMouseClicked="#backToMain" stylesheets="@my.css" text="F1 Teams 2025" BorderPane.alignment="CENTER_LEFT">
             <font>
                 <Font size="24.0" />
             </font>

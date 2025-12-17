@@ -99,3 +99,112 @@
 #ytButton:hover, #instaButton:hover, #twitterButton:hover, #tvButton:hover {
     -fx-opacity: 1;
 }
+
+/* Заголовок плеєра "AUDIO PLAYER" */
+.player-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111;
+}
+
+/* Назва пісні */
+.song-label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e60000; /* Червоний акцент */
+}
+
+/* Кнопки керування (Play, Pause, Next...) */
+.player-btn {
+    -fx-background-color: #111; /* Чорний фон */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-background-radius: 20; /* Сильніше скруглення */
+    -fx-border-radius: 20;
+    -fx-cursor: hand;
+    -fx-min-width: 80px;
+    -fx-min-height: 40px;
+}
+
+.player-btn:hover {
+    -fx-background-color: #e60000; /* Червоний при наведенні */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+.player-btn:pressed {
+    -fx-background-color: #b30000;
+}
+
+/* Кнопка BACK у плеєрі */
+.player-back-btn {
+    -fx-background-color: transparent;
+    -fx-border-color: #111;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-text-fill: #111;
+    -fx-cursor: hand;
+    -fx-font-weight: bold;
+}
+
+.player-back-btn:hover {
+    -fx-background-color: #e60000;
+    -fx-text-fill: white;
+    -fx-border-color: #e60000;
+}
+
+/* Стилізація Progress Bar (смуга часу) */
+.progress-bar > .track {
+    -fx-background-color: #e0e0e0;
+    -fx-background-radius: 10;
+}
+
+.progress-bar > .bar {
+    -fx-background-color: #e60000; /* Червона смуга прогресу */
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+}
+
+/* Стилізація Slider (гучність) */
+.slider .track {
+    -fx-background-color: #ccc;
+}
+
+.slider .thumb {
+    -fx-background-color: #111; /* Чорний повзунок */
+    -fx-background-radius: 50%;
+    -fx-cursor: hand;
+}
+
+.slider .thumb:hover {
+    -fx-background-color: #e60000; /* Червоний при наведенні */
+}
+
+
+/* 2. Кнопка Sign In (Акцентна) */
+#btnSignIn, #btnTickets, #btnDrivers, #btnTeams {
+    -fx-background-color: #ffffff;     /* Білий фон для контрасту */
+    -fx-text-fill: #000000;            /* Чорний текст */
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5;          /* Скруглені кути */
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+}
+
+/* Ефект при наведенні на Sign In - стає червоною */
+#btnSignIn:hover,#btnTickets:hover, #btnDrivers:hover, #btnTeams:hover  {
+    -fx-background-color: #e10600;     /* Стає червоною */
+    -fx-text-fill: #ffffff;            /* Текст стає білим */
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.3), 10, 0, 0, 0); /* Світіння */
+}
+
+/* Ефект при натисканні */
+#btnSignIn:pressed,#btnTickets:pressed, #btnDrivers:pressed, #btnTeams:pressed  {
+    -fx-background-color: #b30000;
+}
+
+
+
+
+
